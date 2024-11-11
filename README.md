@@ -1,2 +1,7 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/5q8vzIyP)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=17051216&assignment_repo_type=AssignmentRepo)
+Gradebook Instructions:
+Always add new commands to the int main(){} space, just above the line "return 0;"
+Enter a new student with gradebook.add_student("FirstNameHere","LastNameHere","StudentI.D.Here");
+Enter a new assignment with gradebook.add_assignment("AssignmentNameHere","MaxAssignmentScoreHere");
+Enter an existing student's grade on an existing assignment with gradebook.enter_grade("StudentI.D.Here","AssignmentNameHere","StudentScoreHere");
+Display the current gradebook with gradebook.report();
+
